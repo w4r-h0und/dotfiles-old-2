@@ -22,6 +22,7 @@ sudo apt update && sudo apt install stow
 ## Installation
 
 If you need a refresher, check out this [video](https://www.youtube.com/watch?v=y6XCebnB9gs)
+
 First clone the dotfiles repo to your $HOME directory via git
 
 ```
