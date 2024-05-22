@@ -12,6 +12,8 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+---@diagnostic disable-next-line: unused-local
 local opts = {}
 
+require("vim-options")
 require("lazy").setup("plugins")
