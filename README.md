@@ -1,19 +1,21 @@
 # dotfiles(H)
 
-This directory is where I keep the dotfiles for my system. 
+This directory is where I keep the dotfiles for my system. Plan to add a script to further automate the process in the future. 
 
 ## Requirements
 
 Ensure you have the following installed on your system:
 
+# On arch:
+```
+sudo pacman -Syy && pacman -S git stow
+```
 
-### Git 
-
+```
+# On debian based:
 ```
 sudo apt install git
 ```
-
-### GNUStow 
 
 ```
 sudo apt update && sudo apt install stow
