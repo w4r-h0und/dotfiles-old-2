@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:/usr/local/go/bin
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -9,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="dracula"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -53,7 +52,7 @@ ZSH_THEME="dracula"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -71,7 +70,7 @@ ZSH_THEME="dracula"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,16 +99,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH:$HOME/.local/bin
-export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
-export PATH="$PATH:$HOME/.axiom/interact"
-source /home/kali/.axiom/functions/autocomplete.zsh
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH:$HOME/.local/bin
-export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
-export PATH="$PATH:$HOME/.axiom/interact"
-source /home/kali/.axiom/functions/autocomplete.zsh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export PATH=/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/.local/bin:/home/kali/bin:/usr/local/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/go/bin:/usr/local/go/bin:/home/kali/.local/bin:/home/kali/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/kali/.dotnet/tools:/usr/local/go/bin:/home/kali/.local/bin:/home/kali/.axiom/interact:/home/kali/.local/bin:/home/kali/.axiom/interact:/usr/local/go/bin:/home/kali/.local/bin:/home/kali/.axiom/interact:/home/kali/.local/bin:/home/kali/.axiom/interact:/home/kali/.fzf/bin:/opt/nvim-linux64/bin
